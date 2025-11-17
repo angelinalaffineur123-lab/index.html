@@ -46,3 +46,14 @@ document.getElementById("close-cart").addEventListener("click", () => {
 document.getElementById("chat-widget").addEventListener("click", () => {
     document.getElementById("chat-box").classList.toggle("hidden");
 });
+<div class="product">
+  <!-- Ajouter l'image du produit ici -->
+  <img src="chemin/vers/guantes-de-boxeo-nios-buddha-luzbel-5-6610.webp" alt="Gants de boxe Buddha Luzbel" class="product-image">
+  
+  <h2 class="product-title">Gants de boxe Pro</h2>
+  <p class="product-description">Des gants de boxe parfaits pour l'entraînement et les compétitions. Confort et performance.</p>
+  <p class="product-price">50€</p>
+  
+  <button class="add-to-cart" data-name="Gants de boxe Pro" data-price="50">Ajouter au panier</button>
+</div>
+
