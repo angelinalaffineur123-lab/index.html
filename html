@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RR.KO - Matériel de Boxe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="logo">RR.KO</div>
+    <nav>
+        <ul>
+            <li data-section="home">Accueil</li>
+            <li data-section="shop">Boutique</li>
+            <li data-section="blog">Blog</li>
+            <li data-section="contact">Contact</li>
+            <li data-section="about">À propos</li>
+            <li id="open-cart">Panier 🛒</li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ========================= -->
+<!-- SECTION : HOME PAGE -->
+<!-- ========================= -->
+
+<section id="home" class="page active">
+
+    <div class="hero">
+        <h1>Équipe-toi comme un champion</h1>
+        <p>Le meilleur matériel de boxe pour tous les niveaux.</p>
+        <button class="cta" data-section="shop">Voir la boutique</button>
+    </div>
+
+    <h2 class="section-title">Catégories phares</h2>
+    <div class="categories">
+        <div class="cat-card" data-section="shop">Gants</div>
+        <div class="cat-card" data-section="shop">Protections</div>
+        <div class="cat-card" data-section="shop">Entraînement</div>
+        <div class="cat-card" data-section="shop">Vêtements</div>
+        <div class="cat-card" data-section="shop">Accessoires</div>
+    </div>
+
+    <h2 class="section-title">Produits populaires</h2>
+    <div class="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="Gants Pro X">
+            <h3>Gants Pro X</h3>
+            <p>79€</p>
+            <button class="add-to-cart" data-name="Gants Pro X" data-price="79">Ajouter au panier</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="Casque Impact">
+            <h3>Casque Impact</h3>
+            <p>59€</p>
+            <button class="add-to-cart" data-name="Casque Impact" data-price="59">Ajouter au panier</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200" alt="Bandages Elite">
+            <h3>Bandages Elite</h3>
+            <p>14€</p>
+            <button class="add-to-cart" data-name="Bandages Elite" data-price="14">Ajouter au panier</button>
+        </div>
+    </div>
+
+    <div class="promo">
+        <h2>-20% sur les gants pro cette semaine</h2>
+    </div>
+
+    <h2 class="section-title">Témoignages</h2>
+    <div class="reviews">
+        <p>⭐⭐⭐⭐⭐ “Excellent matériel !” – Kevin</p>
+        <p>⭐⭐⭐⭐⭐ “Super qualité, arrivé en 48h.” – Sarah</p>
+    </div>
+
+    <h2 class="section-title">Blog</h2>
+    <div class="blog-cards">
+        <div class="blog-item" data-section="blog">Comment choisir ses gants de boxe ?</div>
+        <div class="blog-item" data-section="blog">Quel sac de frappe pour ton niveau ?</div>
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- SECTION : SHOP -->
+<!-- ========================= -->
+
+<section id="shop" class="page">
+    <h1>Boutique</h1>
+    <div class="filters">
+        <select>
+            <option>Filtrer par prix</option>
+            <option>Moins de 50€</option>
+            <option>50€ — 100€</option>
+        </select>
+        <select>
+            <option>Catégorie</option>
+            <option>Gants</option>
+            <option>Protections</option>
+            <option>Équipement</option>
+        </select>
+    </div>
+
+    <div class="products">
+        <!-- Exemples -->
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200">
+            <h3>Short RR.KO</h3>
+            <p>35€</p>
+            <button class="add-to-cart" data-name="Short RR.KO" data-price="35">Ajouter au panier</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x200">
+            <h3>Corde Speed</h3>
+            <p>19€</p>
+            <button class="add-to-cart" data-name="Corde Speed" data-price="19">Ajouter au panier</button>
+        </div>
+    </div>
+</section>
+
+<!-- ========================= -->
+<!-- BLOG -->
+<!-- ========================= -->
+
+<section id="blog" class="page">
+    <h1>Blog & Conseils</h1>
+    <article class="blog-post">
+        <h2>Comment choisir des gants de boxe ?</h2>
+        <p>Les gants se choisissent selon le poids, l’usage, et le niveau…</p>
+    </article>
+
+    <article class="blog-post">
+        <h2>Quel sac de frappe pour quel niveau ?</h2>
+        <p>Pour les débutants, un sac 20–30 kg. Pour les confirmés, plutôt 40–60 kg…</p>
+    </article>
+</section>
+
+<!-- ========================= -->
+<!-- À PROPOS -->
+<!-- ========================= -->
+
+<section id="about" class="page">
+    <h1>À propos de RR.KO</h1>
+    <p>RR.KO est né d’une passion pour la boxe et d’une envie de proposer du matériel fiable, durable et abordable.</p>
+</section>
+
+<!-- ========================= -->
+<!-- CONTACT -->
+<!-- ========================= -->
+
+<section id="contact" class="page">
+    <h1>Contact</h1>
+    <form>
+        <input type="text" placeholder="Nom">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <button>Envoyer</button>
+    </form>
+</section>
+
+<!-- ========================= -->
+<!-- PANIER -->
+<!-- ========================= -->
+
+<div id="cart" class="cart hidden">
+    <h2>Votre panier</h2>
+    <div id="cart-items"></div>
+    <p>Total : <span id="cart-total">0</span> €</p>
+    <button id="close-cart">Fermer</button>
+</div>
+
+<!-- ========================= -->
+<!-- CHAT -->
+<!-- ========================= -->
+
+<div id="chat-widget">💬</div>
+<div id="chat-box" class="hidden">
+    <p>Bonjour ! Comment puis-je vous aider ?</p>
+    <input type="text" placeholder="Votre message...">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
